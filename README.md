@@ -1,10 +1,15 @@
 # Pravega-Analysis
 
+## Generals
+
 ```
 ├── for FOLDERS
 └── for FILES
 │ 
 ```
+
+## .github
+
 ```
 ├── .github
 │    ├── ISSUE_TEMPLATE
@@ -12,6 +17,11 @@
 │    └── CONTRIBUTING.md
 │    └── ISSUE_TEMPLATE.md
 │    └── PULL_REQUEST_TEMPLATE.md
+```
+
+## bindings
+
+```
 ├── bindings
 │    ├── src
 │        ├── main
@@ -99,6 +109,11 @@
 │            ├── resources
 │                ├── mockito-extensions
 │                    └── org.mockito.plugins.MockMaker
+```
+
+## checkstyle
+
+```
 ├── checkstyle
 │   └── checkstyle.xml
 │   └── eclipse.xml
@@ -109,6 +124,11 @@
 │   └── spotbugs-exclude.xml
 │   └── spotbugs-include.xml
 │   └── suppressions.xml
+```
+
+## cli
+
+```
 ├── cli
 │   ├── admin
 │       ├── src
@@ -270,19 +290,134 @@
 │                   └── admin-cli.properties
 │       └── README.md
 │   ├── user
+│       ├── src
+│           ├── main
+│               ├── java
+│                   ├── io
+│                       ├── pravega
+│                           ├── cli
+│                               ├── user
+│                                   ├── config
+│                                       └── ConfigCommand.java
+│                                       └── InteractiveConfig.java
+│                                   ├── kvs
+│                                       └── KeyValueTableCommand.java
+│                                   ├── scope
+│                                       └── ScopeCommand.java
+│                                   ├── stream
+│                                       └── StreamCommand.java
+│                                   ├── utils
+│                                       └── BackgroundConsoleListener.java
+│                                       └── Formatter.java
+│                                   └── Command.java
+│                                   └── CommandArgs.java
+│                                   └── Parser.java
+│                                   └── UserCLIRunner.java
+│           ├── test
+│               ├── java
+│                   ├── io
+│                       ├── pravega
+│                           ├── cli
+│                               ├── user
+│                                   ├── config
+│                                       └── ConfigCommandTest.java
+│                                       └── InteractiveConfigCommandTest.java
+│                                   ├── kvs
+│                                       └── KVTCommandsTest.java
+│                                       └── SecureKVTCommandsTest.java
+│                                   ├── scope
+│                                       └── ScopeCommandsTest.java
+│                                   ├── stream
+│                                       └── StreamCommandTest.java
+│                                   ├── utils
+│                                       └── BackgroundConsoleListenerTest.java
+│                                       └── FormatterTest.java
+│                                   └── TestUtils.java
+│                                   └── UserCLIRunnerTest.java
+│       └── README.md
 │   └── .gitignore
+```
+
+## client
+
+```
 ├── client
+```
+
+## common 
+
+```
 ├── common
+```
+
+## common_server
+
+```
 ├── common_server
+```
+
+## config
+
+```
 ├── config
+```
+
+## controller
+
+```
 ├── controller
+```
+
+## deployment
+
+```
 ├── deployment
+```
+
+## dist
+
+```
 ├── dist
+```
+
+## docker
+
+```
 ├── docker
+```
+
+## documentation
+
+```
 ├── documentation
+```
+
+## gradle
+
+```
 ├── gradle
+```
+
+## segmentstore
+
+```
 ├── segmentstore
+```
+
+## shared
+
+```
 ├── shared
+```
+
+## standalone 
+
+```
 ├── standalone
+```
+
+## test
+
+```
 ├── test
 ```
