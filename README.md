@@ -100,7 +100,19 @@
 │                ├── mockito-extensions
 │                    └── org.mockito.plugins.MockMaker
 ├── checkstyle
+│   └── checkstyle.xml
+│   └── eclipse.xml
+│   └── example.importorder
+│   └── import-control-core.xml
+│   └── import-control.xml
+│   └── intelij.xml
+│   └── spotbugs-exclude.xml
+│   └── spotbugs-include.xml
+│   └── suppressions.xml
 ├── cli
+│   ├── admin
+│   ├── user
+│   └── .gitignore
 ├── client
 ├── common
 ├── common_server
