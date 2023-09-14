@@ -476,12 +476,34 @@
 │                                   └── EventSegmentReaderUtility.java
 │                                   └── EventStreamReaderImpl.java
 │                                   └── EventStreamWriterImpl.java
-│                                   └──
-│                                   └── 
-│                                   └──
-│                                   └──
-│                                   └──
-│                                   └── 
+│                                   └── JavaSerializer.java
+│                                   └── LargeEventWriter.java
+│                                   └── MaxNumberOfCheckpointsExceededException.java
+│                                   └── Orderer.java
+│                                   └── PendingEvent.java
+│                                   └── Pinger.java
+│                                   └── PositionImpl.java
+│                                   └── PositionInternal.java
+│                                   └── ReaderGroupImpl.java
+│                                   └── ReaderGroupState.java
+│                                   └── ReaderGroupStateManager.java
+│                                   └── SegmentSelector.java
+│                                   └── SegmentTransaction.java
+│                                   └── SegmentTransactionImpl.java
+│                                   └── SegmentWithRange.java
+│                                   └── StreamCutImpl.java
+│                                   └── StreamCutInternal.java
+│                                   └── StreamImpl.java
+│                                   └── StreamInternal.java
+│                                   └── StreamSegmentSuccessors.java
+│                                   └── StreamSegments.java
+│                                   └── StreamSegmentsWithPredecessors.java
+│                                   └── TransactionInfoImpl.java
+│                                   └── TransactionalEventStreamWriterImpl.java
+│                                   └── TxnSegments.java
+│                                   └── UTF8StringSerializer.java
+│                                   └── WatermarkReaderImpl.java
+│                                   └── WriterPosition.java
 │                               ├── notifications
 │                                   ├── notifier
 │                                       └── AbstractNotifier.java
@@ -532,8 +554,25 @@
 │                               └── TxnFailedException.java
 │                           ├── tables
 │                               ├── impl
+│                                   └── HashTableIteratorItem.java
+│                                   └── KeyValueTableFactoryImpl.java
+│                                   └── KeyValueTableImpl.java
+│                                   └── KeyValueTableIteratorImpl.java
+│                                   └── KeyValueTableSegments.java
+│                                   └── SegmentIteratorArgs.java
+│                                   └── SegmentSelector.java
+│                                   └── TableEntryHelper.java
+│                                   └── TableSegment.java
+│                                   └── TableSegmentEntry.java
+│                                   └── TableSegmentFactory.java
+│                                   └── TableSegmentFactoryImpl.java
+│                                   └── TableSegmentImpl.java
+│                                   └── TableSegmentIterator.java
+│                                   └── TableSegmentKey.java
+│                                   └── TableSegmentKeyVersion.java
+│                                   └── VersionImpl.java
 │                           ├── watermark
-│                               ├── impl
+│                               └── WatermarkSerializer.java
 │                           └── BatchClientFactory.java
 │                           └── ByteStreamClientFactory.java
 │                           └── ClientConfig.java
