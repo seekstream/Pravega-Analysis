@@ -56,12 +56,49 @@
 │                ├── META-INF
 │                    ├── services
 │                        └── io.pravega.segmentstore.storage.StorageFactoryCreator
-│
-│
-│
-│
-│ 
 │        ├── test
+│            ├── java
+│                ├── io
+│                    ├── pravega
+│                        ├── storage
+│                            ├── azure
+│                                └── AzureBlobClientImplTestsWithMock.java
+│                                └── AzureFactoryTests.java
+│                                └── AzureSimpleStorageTests.java
+│                                └── AzureStorageConfigTest.java
+│                                └── AzureTestContext.java
+│                                └── MockAzureClient.java
+│                            ├── extendeds3
+│                                └── ExtendedS3SimpleStorageTests.java
+│                                └── ExtendedS3StorageConfigTest.java
+│                                └── ExtendedS3StorageFactoryTests.java
+│                                └── ExtendedS3TestContext.java
+│                                └── S3ClientMock.java
+│                                └── S3Mock.java
+│                            ├── filesystem
+│                                └── FileSystemChunkStorageMockTest.java
+│                                └── FileSystemSimpleStorageTest.java
+│                                └── FileSystemStorageFactoryTests.java
+│                            ├── gcp
+│                                └── GCPSimpleStorageTests.java
+│                                └── GCPStorageConfigTest.java
+│                                └── GCPStorageFactoryTests.java
+│                                └── GCPTestContext.java
+│                            ├── hdfs
+│                                └── HDFSChunkStorageMockTest.java
+│                                └── HDFSClusterHelpers.java
+│                                └── HDFSSimpleStorageTest.java
+│                                └── HDFSStorageFactoryTests.java
+│                            ├── s3
+│                                └── S3ClientMock.java
+│                                └── S3Mock.java
+│                                └── S3SimpleStorageTests.java
+│                                └── S3StorageConfigTests.java
+│                                └── S3StorageFactoryTests.java
+│                                └── S3TestContext.java
+│            ├── resources
+│                ├── mockito-extensions
+│                    └── org.mockito.plugins.MockMaker
 ├── checkstyle
 ├── cli
 ├── client
