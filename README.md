@@ -27,11 +27,35 @@
 │                                └── AzureStorageConfig.java
 │                                └── AzureStorageFactoryCreator.java
 │                            ├── extendeds3
+│                                └── ExtendedS3ChunkStorage.java
+│                                └── ExtendedS3SimpleStorageFactory.java
+│                                └── ExtendedS3StorageConfig.java
+│                                └── ExtendedS3StorageFactoryCreator.java
 │                            ├── filesystem
+│                                └── FileSystemChunkStorage.java
+│                                └── FileSystemSimpleStorageFactory.java
+│                                └── FileSystemStorageConfig.java
+│                                └── FileSystemStorageFactoryCreator.java
+│                                └── FileSystemWrapper.java
 │                            ├── gcp
+│                                └── GCPChunkStorage.java
+│                                └── GCPSimpleStorageFactory.java
+│                                └── GCPStorageConfig.java
+│                                └── GCPStorageFactoryCreator.java
 │                            ├── hdfs
+│                                └── HDFSChunkStorage.java
+│                                └── HDFSSimpleStorageFactory.java
+│                                └── HDFSStorageConfig.java
+│                                └── HDFSStorageFactoryCreator.java
 │                            ├── s3
+│                                └── S3ChunkStorage.java
+│                                └── S3SimpleStorageFactory.java
+│                                └── S3StorageConfig.java
+│                                └── S3StorageFactoryCreator.java
 │            ├── resources
+│                ├── META-INF
+│                    ├── services
+│                        └── io.pravega.segmentstore.storage.StorageFactoryCreator
 │
 │
 │
