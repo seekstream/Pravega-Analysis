@@ -338,10 +338,63 @@
 │   └── .gitignore
 ```
 
-## client
+## client (Continued)
 
 ```
 ├── client
+│   ├── src
+│       ├── main
+│           ├── java
+│               ├── io
+│                   ├── pravega
+│                       ├── client
+│                           ├── admin
+│                               ├── impl
+│                                   └── KeyValueTableManagerImpl.java
+│                                   └── ReaderGroupManagerImpl.java
+│                                   └── StreamCutHelper.java
+│                                   └── StreamManagerImpl.java
+│                               └── KeyValueTableInfo.java
+│                               └── KeyValueTableManager.java
+│                               └── ReaderGroupManager.java
+│                               └── StreamInfo.java
+│                               └── StreamManager.java
+│                           ├── batch
+│                               ├── impl
+│                                   └── BatchClientFactoryImpl.java
+│                                   └── SegmentIteratorImpl.java
+│                                   └── SegmentRangeImpl.java
+│                                   └── StreamSegmentInfoImpl.java
+│                               └── SegmentIterator.java
+│                               └── SegmentRange.java
+│                               └── StreamSegmentsIterator.java
+│                           ├── bytestream
+│                               ├── impl
+│                               └── ByteStreamReader.java
+│                               └── ByteStreamWriter.java
+│                           ├── connection
+│                               ├── impl
+│                           ├── control
+│                               ├── impl
+│                           ├── security
+│                               ├── impl
+│                           ├── segment
+│                               ├── impl
+│                           ├── state
+│                               ├── impl
+│                           ├── stream
+│                               ├── impl
+│                           ├── tables
+│                               ├── impl
+│                           ├── watermark
+│                               ├── impl
+│                           └── BatchClientFactory.java
+│                           └── ByteStreamClientFactory.java
+│                           └── ClientConfig.java
+│                           └── EventStreamClientFactory.java
+│                           └── KeyValueTableFactory.java
+│                           └── SynchronizerClientFactory.java
+│       ├── test
 ```
 
 ## common 
