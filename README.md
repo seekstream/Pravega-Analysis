@@ -455,11 +455,81 @@
 │                               └── Revision.java
 │                               └── Revisioned.java
 │                               └── RevisionedStreamClient.java
-│                               └── State
-│                               └──
-│                               └── 
+│                               └── StateSynchronizer.java
+│                               └── SynchronizerConfig.java
+│                               └── Update.java
 │                           ├── stream
 │                               ├── impl
+│                                   └── AbstractClientFactoryImpl.java
+│                                   └── ByteArraySerializer.java
+│                                   └── ByteBufferSerializer.java
+│                                   └── CheckpointFailedException.java
+│                                   └── CheckpointImpl.java
+│                                   └── CheckpointState.java
+│                                   └── ClientFactoryImpl.java
+│                                   └── ConnectionClosedException.java
+│                                   └── Credentials.java
+│                                   └── DefaultCredentials.java
+│                                   └── EventPointerImpl.java
+│                                   └── EventPointerInternal.java
+│                                   └── EventReadImpl.java
+│                                   └── EventSegmentReaderUtility.java
+│                                   └── EventStreamReaderImpl.java
+│                                   └── EventStreamWriterImpl.java
+│                                   └──
+│                                   └── 
+│                                   └──
+│                                   └──
+│                                   └──
+│                                   └── 
+│                               ├── notifications
+│                                   ├── notifier
+│                                       └── AbstractNotifier.java
+│                                       └── AbstractPollingNotifier.java
+│                                       └── EndOfDataNotifier.java
+│                                       └── SegmentNotifier.java
+│                                   └── EndOfDataNotification.java
+│                                   └── Listener.java
+│                                   └── Notification.java
+│                                   └── NotificationSystem.java
+│                                   └── NotifierFactory.java
+│                                   └── Observable.java
+│                                   └── ReaderGroupNotificationListener.java
+│                                   └── SegmentNotification.java
+│                               └── Checkpoint.java
+│                               └── ConfigMismatchException.java
+│                               └── DeleteScopeFailedException.java
+│                               └── EventPointer.java
+│                               └── EventRead.java
+│                               └── EventStreamReader.java
+│                               └── EventStreamWriter.java
+│                               └── EventWriterConfig.java
+│                               └── IdempotentEventStreamWriter.java
+│                               └── InvalidStreamException.java
+│                               └── NoSuchScopeException.java
+│                               └── PingFailedException.java
+│                               └── Position.java
+│                               └── ReaderConfig.java
+│                               └── ReaderGroup.java
+│                               └── ReaderGroupConfig.java
+│                               └── ReaderGroupMetrics.java
+│                               └── ReaderGroupNotFoundException.java
+│                               └── ReaderNotInReaderGroupException.java
+│                               └── ReaderSegmentDistribution.java
+│                               └── ReinitializationRequiredException.java
+│                               └── RetentionPolicy.java
+│                               └── ScalingPolicy.java
+│                               └── Sequence.java
+│                               └── Serializer.java
+│                               └── Stream.java
+│                               └── StreamConfiguration.java
+│                               └── StreamCut.java
+│                               └── TimeWindow.java
+│                               └── Transaction.java
+│                               └── TransactionInfo.java
+│                               └── TransactionalEventStreamWriter.java
+│                               └── TruncatedDataException.java
+│                               └── TxnFailedException.java
 │                           ├── tables
 │                               ├── impl
 │                           ├── watermark
